@@ -1,15 +1,14 @@
 import React from 'react'
-//import images from '../../images/doodleTrans.png'
-import { HeroCont, Background,} from './heroElements'
+import Video from '../videos/video.mp4'
+import { HeroCont, Background, VideoBg} from './heroElements'
 
 const Hero = () => {
   return (
     <>
         <HeroCont>
             <Background>
-                <VideoBg autoplay loop muted src={video} type='video/mp4' />
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </Background>
-
         </HeroCont>
 
     </>
