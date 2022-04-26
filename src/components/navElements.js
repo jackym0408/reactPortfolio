@@ -69,7 +69,7 @@ export const NavItemCont = styled.ul`
 export const NavItem = styled.li`
   height: 80px;
 `
-export const NavLinks = styled(LinkS)`
+export const NavLinks=styled(LinkS)`
   color: #fff;
   display: flex;
   align-items: center;
@@ -77,8 +77,10 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
 //   gives that border when ur on a page
   &.active {
     border-bottom: 3px solid #01bf71;
   }
 `
+
