@@ -18,7 +18,7 @@ const Hero = () => {
         <HeroInfo>
             <Heroh1> Hi, I'm Jacky :)</Heroh1>
             <Herop>
-                Using my love for deisgn and my tech skills to become a front end devloper
+                Using my love for design and my tech skills to become a front end devloper
             </Herop>   
             <HeroBWrap>
                 <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover}>
