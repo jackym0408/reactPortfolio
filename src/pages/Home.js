@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import { homeObjOne } from '../components/Data';
+import { homeObjOne,  } from '../components/Data';
 import Hero from '../components/Hero';
 import InfoSection from '../components/InfoSection';
 import Navbar from '../components/Navbar'
+import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar'
  
  const Home = () => {
@@ -18,6 +19,7 @@ import Sidebar from '../components/Sidebar'
      <Navbar toggle={toggle} />
      <Hero />
      <InfoSection {...homeObjOne}/>
+     <Projects />
      
      </>
    );
