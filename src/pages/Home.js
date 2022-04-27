@@ -1,4 +1,4 @@
- import React, {useState} from 'react'
+import React, {useState} from 'react';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
@@ -7,10 +7,8 @@ import Sidebar from '../components/Sidebar'
      const[isOpen, setIsOpen] = useState(false);
 
      const toggle = () => {
-         setIsOpen(!isOpen)
+         setIsOpen(!isOpen);
      };
-
-
 
    return (
      <>
@@ -18,7 +16,7 @@ import Sidebar from '../components/Sidebar'
      <Navbar toggle={toggle} />
      <Hero />
      </>
-   )
- }
+   );
+ };
  
  export default Home
